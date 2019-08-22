@@ -1,0 +1,1 @@
+# @episerver/commitlint-plugin-references
