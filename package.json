@@ -9,13 +9,17 @@
         "commitlintplugin",
         "episerver"
     ],
+    "scripts": {
+        "test": "jest"
+    },
     "dependencies": {
         "@commitlint/ensure": "^8.1.0",
         "@commitlint/message": "^8.1.0"
     },
     "devDependencies": {
         "@episerver/eslint-config": "^1.2.0",
-        "eslint": "^6.2.1"
+        "eslint": "^6.2.1",
+        "jest": "^24.9.0"
     },
     "eslintConfig": {
         "env": {
@@ -24,6 +28,16 @@
         "extends": [
             "eslint:recommended",
             "@episerver"
+        ],
+        "overrides": [
+            {
+                "files": [
+                    "*.test.js"
+                ],
+                "env": {
+                    "jest": true
+                }
+            }
         ],
         "parserOptions": {
             "ecmaVersion": 6
