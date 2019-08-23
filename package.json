@@ -8,5 +8,21 @@
         "commitlint",
         "commitlintplugin",
         "episerver"
-    ]
+    ],
+    "devDependencies": {
+        "@episerver/eslint-config": "^1.2.0",
+        "eslint": "^6.2.1"
+    },
+    "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "eslint:recommended",
+            "@episerver"
+        ],
+        "parserOptions": {
+            "ecmaVersion": 6
+        }
+    }
 }
