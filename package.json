@@ -9,6 +9,10 @@
         "commitlintplugin",
         "episerver"
     ],
+    "dependencies": {
+        "@commitlint/ensure": "^8.1.0",
+        "@commitlint/message": "^8.1.0"
+    },
     "devDependencies": {
         "@episerver/eslint-config": "^1.2.0",
         "eslint": "^6.2.1"

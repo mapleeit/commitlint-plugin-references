@@ -18,6 +18,18 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@commitlint/ensure@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-8.1.0.tgz#6c669f85c3005ed15c8141d83cf5312c43001613"
+  integrity sha512-dBU4CcjN0vJSDNOeSpaHNgQ1ra444u4USvI6PTaHVAS4aeDpZ5Cds1rxkZNsocu48WNycUu0jP84+zjcw2pPLQ==
+  dependencies:
+    lodash "4.17.14"
+
+"@commitlint/message@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-8.1.0.tgz#8fb8046ddaa7e5c846a79da7cdbd15cf1a7770ae"
+  integrity sha512-AjHq022G8jQQ/3YrBOjwVBD4xF75hvC3vcvFoBIb7cC8vad1QWq+1w+aks0KlEK5IW+/+7ORZXIH+oyW7h3+8A==
+
 "@episerver/eslint-config@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@episerver/eslint-config/-/eslint-config-1.2.0.tgz#97c9b85dd7c885fac3aad3fde980211225ebed14"
@@ -484,6 +496,11 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
+
+lodash@4.17.14:
+  version "4.17.14"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
+  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
 
 lodash@^4.17.12, lodash@^4.17.14:
   version "4.17.15"
