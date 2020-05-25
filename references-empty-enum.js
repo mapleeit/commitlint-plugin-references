@@ -1,5 +1,5 @@
 const ensure = require("@commitlint/ensure");
-const message = require("@commitlint/message");
+const message = require("@commitlint/message").default;
 
 module.exports = function (parsed, when = "never", value) {
     const { references, type } = parsed;
