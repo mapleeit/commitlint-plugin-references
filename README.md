@@ -2,8 +2,9 @@
 
 A `commitlint` rule for conditionally requiring references in commit messages for given types.
 
-> Forked from https://github.com/episerver/commitlint-plugin-references
-> But since it seems not be maintained. So I forked it and make a new package.
+> Forked from https://github.com/episerver/commitlint-plugin-references.
+>
+> But it seems not be maintained. So I forked it and make a new package.
 
 ## Installation
 
