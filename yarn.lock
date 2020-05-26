@@ -139,17 +139,23 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@commitlint/ensure@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-8.1.0.tgz#6c669f85c3005ed15c8141d83cf5312c43001613"
-  integrity sha512-dBU4CcjN0vJSDNOeSpaHNgQ1ra444u4USvI6PTaHVAS4aeDpZ5Cds1rxkZNsocu48WNycUu0jP84+zjcw2pPLQ==
+"@commitlint/ensure@^9.0.0":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-9.0.1.tgz#3ad2bb93a90893393e781a0e578532d4d07ef997"
+  integrity sha512-z8SEkfbn0lMnAtt7Hp3A8hE3CRCDsg+Eu3Xj1UJakOyCPJgHE1/vEyM2DO2dxTXVKuttiHeLDnUSHCxklm78Ng==
   dependencies:
-    lodash "4.17.14"
+    "@commitlint/types" "^9.0.1"
+    lodash "^4.17.15"
 
-"@commitlint/message@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-8.1.0.tgz#8fb8046ddaa7e5c846a79da7cdbd15cf1a7770ae"
-  integrity sha512-AjHq022G8jQQ/3YrBOjwVBD4xF75hvC3vcvFoBIb7cC8vad1QWq+1w+aks0KlEK5IW+/+7ORZXIH+oyW7h3+8A==
+"@commitlint/message@^9.0.0":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-9.0.1.tgz#c5da6fc081203cc1b41d0f217954bbaa865cac7e"
+  integrity sha512-9rKnOeBV5s5hnV895aE3aMgciC27kAjkV9BYVQOWRjZdXHFZxa+OZ94mkMp+Hcr61W++fox1JJpPiTuCTDX3TQ==
+
+"@commitlint/types@^9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.0.1.tgz#df281f0f3d8f3adb10c95e4dd72b16acf41b5400"
+  integrity sha512-wo2rHprtDzTHf4tiSxavktJ52ntiwmg7eHNGFLH38G1of8OfGVwOc1sVbpM4jN/HK/rCMhYOi6xzoPqsv0537A==
 
 "@episerver/eslint-config@^1.2.0":
   version "1.2.0"
@@ -2388,12 +2394,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@4.17.14:
-  version "4.17.14"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
-  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
-
-lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14:
+lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==

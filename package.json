@@ -1,20 +1,19 @@
 {
-    "name": "@episerver/commitlint-plugin-references",
+    "name": "commitlint-plugin-references",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "github:ben-mckernan/commitlint-plugin-references",
+    "repository": "github:mapleeit/commitlint-plugin-references",
     "license": "MIT",
     "keywords": [
         "commitlint",
-        "commitlintplugin",
-        "episerver"
+        "commitlintplugin"
     ],
     "scripts": {
         "test": "jest"
     },
     "dependencies": {
-        "@commitlint/ensure": "^8.1.0",
-        "@commitlint/message": "^8.1.0"
+        "@commitlint/ensure": "^9.0.0",
+        "@commitlint/message": "^9.0.0"
     },
     "devDependencies": {
         "@episerver/eslint-config": "^1.2.0",

@@ -1,17 +1,20 @@
-# @episerver/commitlint-plugin-references
+# commitlint-plugin-references
 
 A `commitlint` rule for conditionally requiring references in commit messages for given types.
+
+> Forked from https://github.com/episerver/commitlint-plugin-references
+> But since it seems not be maintained. So I forked it and make a new package.
 
 ## Installation
 
 **yarn**
 ```sh
-yarn add --dev @episerver/commitlint-plugin-references
+yarn add --dev commitlint-plugin-references
 ```
 
 **npm**
 ```sh
-npm install --save-dev @episerver/commitlint-plugin-references
+npm install --save-dev commitlint-plugin-references
 ```
 
 ## Usage
@@ -21,7 +24,7 @@ To configure that references should never be empty for `fix` and `feat`. It is a
 ```js
 module.exports = {
     plugins: [
-        "@episerver/references"
+        "references"
     ],
     rules: {
         "references-empty-enum": [
